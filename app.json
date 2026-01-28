@@ -1,0 +1,21 @@
+{
+    "name": "🤖 M E K A - A I 🤖",
+    "description": "mini web bot",
+    "logo": "https://i.ibb.co/Ld7THgtF/download.jpg",
+    "repository": "https://github.com/there-no-such-thing-as-prefect-crime/meka-ai",
+    
+    "keywords": [
+    "msgamecoder","mx","meka-ai","meka"
+    ],
+    
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      }
+    }   
+
+}
